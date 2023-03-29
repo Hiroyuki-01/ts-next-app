@@ -63,7 +63,7 @@ const Footer = () => {
             </Box>
           </nav>
         </Box>
-        <Box minWidth={{ base: '100%', md: '120px' }}>
+        {/* <Box minWidth={{ base: '100%', md: '120px' }}>
           <nav>
             <Anchor
               as="a"
@@ -73,11 +73,11 @@ const Footer = () => {
               <GitHubIcon size={22} />
             </Anchor>
           </nav>
-        </Box>
+        </Box> */}
       </Flex>
-      <Box paddingTop={3} paddingBottom={2}>
+      {/* <Box paddingTop={3} paddingBottom={2}>
         <Text>© 2021 Gijutsuhyoronsha Co., Ltd.. All rights reserved.</Text>
-      </Box>
+      </Box> */}
     </footer>
   )
 }
